@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/matthewbeta/browserify-calculator/issues"
   },
-  "homepage": "https://github.com/matthewbeta/browserify-calculator"
+  "homepage": "https://github.com/matthewbeta/browserify-calculator",
+  "devDependencies": {
+    "underscore": "~1.6.0",
+    "jquery": "~2.1.1"
+  }
 }
