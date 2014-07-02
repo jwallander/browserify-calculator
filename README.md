@@ -24,3 +24,5 @@ Add the following markup:
 4. Run browserify cli to create the bundle.js file, link it in the index.html and test it out.
 
 5. Create some modules
+
+6. Require the modules, do some stuff and then log it to the console. This is easy.
