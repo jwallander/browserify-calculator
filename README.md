@@ -18,3 +18,9 @@ Add the following markup:
 {% highlight html linenos %}
 
 {% end highlight %}
+
+3. Creat a main.js file and do some cool stuff
+
+4. Run browserify cli to create the bundle.js file, link it in the index.html and test it out.
+
+5. Create some modules
