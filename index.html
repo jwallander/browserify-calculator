@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caluclator</title>
+
+  <style media="screen">
+
+    * {
+      box-sizing; border-box;
+      -webkit-box-sizing: border-box;
+    }
+    body {
+      background-color: #353c38;
+    }
+    ol, ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      padding: .25em;
+      text-align: center;
+    }
+    .calculator {
+      margin: 3em auto;
+      width: 400px;
+      background: #a7ecc0;
+      padding: 1em;
+      overflow: hidden;
+      border-radius: .25em;
+      font-size: 1em;
+    }
+    #output {
+      margin: .25em;
+      padding: .5em;
+      height: 2.5em;
+      margin-bottom: 1em;
+      background: #FFF;
+      font-size: 1.5em;
+    }
+    #numbers, #controls {
+      float: left
+    }
+    #numbers > li {
+      float: right;
+    }
+    #numbers {
+      width: 75%;
+    }
+    #controls {
+      width: 25%;
+    }
+    #operators > li {
+      width: 25%;
+      float: left;
+    }
+    #numbers > li {
+      width: 33%;
+    }
+    button {
+      padding: .25em 1em;
+      width: 100%;
+      height: 100%;
+      background: #63e49f;
+      border: 0 none;
+      color: #FFF;
+      cursor: pointer;
+      font-size: 1.5em;
+      font-family: "Monaco" monospace;
+    }
+    button:hover,
+    button:focus {
+      outline: 0 none;
+      background-color: #2bdc74;
+    }
+  </style>
+</head>
+<body>
+
+<div class="calculator">
+  <div id="output" class="screen"></div>
+
+  <ul id="operators" class="btn-list">
+    <li><button id="add" type="button">&plus;</button></li>
+    <li><button id="subtract" type="button">&minus;</button></li>
+    <li><button id="multiply" type="button">&times;</button></li>
+    <li><button id="divide" type="button">&divide;</button></li>
+  </ul>
+  <!-- /.controls -->
+
+  <ol id="numbers" class="btn-list">
+    <li><button data-value="9" type="button">9</button></li>
+    <li><button data-value="8" type="button">8</button></li>
+    <li><button data-value="7" type="button">7</button></li>
+    <li><button data-value="6" type="button">6</button></li>
+    <li><button data-value="5" type="button">5</button></li>
+    <li><button data-value="4" type="button">4</button></li>
+    <li><button data-value="3" type="button">3</button></li>
+    <li><button data-value="2" type="button">2</button></li>
+    <li><button data-value="1" type="button">1</button></li>
+    <li><button data-value="0" type="button">0</button></li>
+  </ol>
+  <!-- /.numbers -->
+
+  <ul id="controls" class="btn-list">
+    <li><button id="clear" type="button">C</button></li>
+    <li><button id="clearEntry" type="button">CE</button></li>
+    <li><button id="equals" type="button">&equals;</button></li>
+  </ul>
+  <!-- /.controls -->
+</div>
+
+</body>
+</html>
