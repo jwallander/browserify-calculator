@@ -1,0 +1,19 @@
+{
+  "name": "browserify-calculator",
+  "version": "0.0.0",
+  "description": "demo for tutorial",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewbeta/browserify-calculator.git"
+  },
+  "author": "@matthewbeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewbeta/browserify-calculator/issues"
+  },
+  "homepage": "https://github.com/matthewbeta/browserify-calculator"
+}
