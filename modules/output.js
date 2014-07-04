@@ -1,5 +1,3 @@
-var $ = require('jquery');
-
-module.exports = function(el, value) {
-    $(el).html(value);
+module.exports = function(el, val) {
+    el.value = val;
 };
